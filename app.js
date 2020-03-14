@@ -6,3 +6,4 @@ let server = http.createServer((req, res) => {
 });
 
 server.listen(5050, "127.0.0.1");
+console.log("Listening to port 5050");
